@@ -1,0 +1,30 @@
+{
+  "name": "mongodb-rest-api",
+  "version": "1.0.0",
+  "description": "> Api Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node boot.js",
+    "dev": "nodemon boot.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "manhict (Sky)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "ip": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
